@@ -2,23 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2020/07/11/cs231n-assignment3/</loc>
+    <loc>http://yoursite.com/2020/08/23/cmu11-785-rnn1/</loc>
     
-    <lastmod>2020-07-12T14:15:09.648Z</lastmod>
+    <lastmod>2020-08-23T12:57:47.037Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2020/07/12/cs231n-assignment2/</loc>
     
-    <lastmod>2020-07-12T02:50:07.318Z</lastmod>
+    <lastmod>2020-08-23T12:57:38.824Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/23/classification/</loc>
+    
+    <lastmod>2020-08-23T12:56:02.880Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/23/%E6%95%B0%E6%8D%AE%E5%A2%9E%E5%B9%BF/</loc>
+    
+    <lastmod>2020-08-23T12:55:40.423Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/23/nn-KLDivLoss-%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    
+    <lastmod>2020-08-23T12:41:43.219Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2020/07/10/hello-world/</loc>
     
-    <lastmod>2020-07-11T03:35:07.343Z</lastmod>
+    <lastmod>2020-07-12T14:23:46.369Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/07/11/cs231n-assignment3/</loc>
+    
+    <lastmod>2020-07-12T14:23:41.946Z</lastmod>
     
   </url>
   
