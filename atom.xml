@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-01T14:21:04.989Z</updated>
+  <updated>2020-09-02T15:07:32.266Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Lecture1-Introduction</title>
+    <link href="http://yoursite.com/2020/09/02/Lecture1-Introduction/"/>
+    <id>http://yoursite.com/2020/09/02/Lecture1-Introduction/</id>
+    <published>2020-09-02T13:54:26.000Z</published>
+    <updated>2020-09-02T15:07:32.266Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>You will not become an expert in one course</strong></p><h2 id="Topics"><a href="#Topics" class="headerlink" title="Topics"></a>Topics</h2><ul><li>基本的神经网络  <ol><li>MLPs</li><li>Convolutional networks</li><li>Recurrent networks</li><li>Boltzmann machines</li></ol></li><li>一些高级的网络<ol><li>Generative models: VAEs</li><li>Adversarial models: GANs</li></ol></li><li>课程中涉及到的一些topics<ol><li>Computer vision: recognizing images</li><li>Text processing: modeling and generating language</li><li>Machine translation: Sequence to sequence modeling</li><li>Modelling distributions and generating data</li><li>Reinforcement learning and games</li><li>Speech recognition</li></ol></li></ul><h2 id="Perceptron"><a href="#Perceptron" class="headerlink" title="Perceptron"></a>Perceptron</h2><p>本章节的前面部分主要是讲解的一些历史的发展，感兴趣可以翻看课件。下面主要从Perceptron开始。先上数学表达式：  </p><p>$$p_i=<br>\begin{cases}<br>1&amp; \text{$if \sum_i w_ix_i-T&gt;0$}\<br>0&amp; \text{$else$}\<br>\end{cases}$$  </p><p>Perceptron的学习策略为： </p><p>$$w=w+\eta(d(x)-y(x))x$$</p><ul><li>$d(x)$ 是label  </li><li>$y(x)$ 是感知机的输出  </li></ul><p>其实现可以参考<a href="https://github.com/VJaGG/machine-learning/blob/master/foundations/code/perceptron.py" target="_blank" rel="noopener">percptron</a>，感知机网络的几个特点如下  </p><ul><li>Boolean tasks</li><li>当输出为错误的时候更新参数</li><li>针对于线性可分的数据证明是可以收敛的(机器学习基石中有证明)</li></ul><p>如图所示，感知机可以很容易的用来模拟布尔运算(这里的输入是0或1不是实数，后面会介绍实数)，其中边上的值是权重，圈里面的值是阈值，对应上面的数学表达式。<br><img src= "/img/loading.gif" data-src="/2020/09/02/Lecture1-Introduction/1.png" height="312" width="636"></p><p>如图感知机可以表示与或非，但是不能表示异或。<br><img src= "/img/loading.gif" data-src="/2020/09/02/Lecture1-Introduction/2.png" height="413" width="565"></p><h2 id="A-single-neuron-is-not-enough"><a href="#A-single-neuron-is-not-enough" class="headerlink" title="A single neuron is not enough"></a>A single neuron is not enough</h2><p>所以由上面的感知机可以得到的一个结论是单一的神经元是不够的  </p><ul><li>Individual elements are weak computational elements</li><li>$\color{orange}{Networked}$ $\color{orange}{elements}$ are required</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;You will not become an expert in one course&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Topics&quot;&gt;&lt;a href=&quot;#Topics&quot; class=&quot;headerlink&quot; title=&quot;Topics&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="cmu11-785" scheme="http://yoursite.com/tags/cmu11-785/"/>
+    
+  </entry>
   
   <entry>
     <title>Recurrent Networks：Stability analysis and LSTMs</title>
