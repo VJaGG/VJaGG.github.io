@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/09/12/Lecture2/</loc>
+    
+    <lastmod>2020-09-14T13:59:40.162Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/09/02/Lecture1-Introduction/</loc>
     
-    <lastmod>2020-09-09T14:24:33.640Z</lastmod>
+    <lastmod>2020-09-12T02:29:09.176Z</lastmod>
     
   </url>
   
